@@ -62,7 +62,7 @@ public class Pattern {
         }
 
     }
-    static void pattern7() {
+    static void pattern7() {   
         System.out.println("pattern 7:");
         int k = 1; 
         for(int i = 1; i <=5; i++) {
@@ -73,7 +73,18 @@ public class Pattern {
             System.out.println();
         }
     }
-        public static void main(String[] args) {
+    static void pattern8() {
+        System.out.println("pattern 8:");
+        int k = 2; 
+        for(int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= 5; j++) {
+               System.out.printf("%3d ", k);
+                k += 2;
+            }
+            System.out.println();
+        }
+    }   
+    public static void main(String[] args) {
 
        // pattern1();
         //pattern2();
@@ -81,7 +92,8 @@ public class Pattern {
         //pattern4();
         //pattern5();
         //pattern6();
-        pattern7();
+       // pattern7();
+       pattern8();
     }
 
 }
