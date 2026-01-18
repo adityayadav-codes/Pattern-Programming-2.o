@@ -52,14 +52,24 @@ public class Pattern {
    
     static void pattern6() {
         System.out.println("pattern 6:");
+        int k = 1;
+        for(int i =1; i <= 5; i++) {
+            for(int j = 1; j <= 5; j++) {
+                System.out.printf("%2d ", k);
+                k++;
+            }
+            System.out.println();
+        }
+
     }
     public static void main(String[] args) {
 
-        pattern1();
-        pattern2();
-        pattern3();
-        pattern4();
-        pattern5();
+       // pattern1();
+        //pattern2();
+        //pattern3();
+        //pattern4();
+        //pattern5();
+        pattern6();
     }
 
 }
